@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/historylinearlayout"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ECECEC"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+      <TextView
+          android:id="@+id/history_completed"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="1"
+          android:textSize="18sp"
+          android:textColor="#000000"
+          android:textStyle="bold"/>
+      <TextView
+          android:id="@+id/history_date"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          tools:text="12 7 2020 32:76:09"
+          android:textColor="#000000"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:gravity="center"/>
+  </LinearLayout>
